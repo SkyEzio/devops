@@ -1,14 +1,14 @@
 package main
 
 import (
-        "testing"
+       "testing"
 )
 
 func TestAdd(t *testing.T) {
-        result := Add(1, 3)
-        if result != 4 {
-                t.Errorf("should be 4 but %d", result)
-        }
+       result := Add(1, 3)
+       if result != 4 {
+               t.Errorf("should be 4 but %d", result)
+       }
 }
 
 func TestDiv(t *testing.T) {
@@ -27,4 +27,3 @@ func TestDivZero(t *testing.T) {
                t.Error("cannot pass")
        }
 }
-
